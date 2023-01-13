@@ -122,6 +122,10 @@ form {
   .inner {
     min-width: 768px;
   }
+  .glass-panel{
+    width: 100%;
+    filter: blur(1);
+  }
 }
 
 @media (max-width: 767px) {
@@ -137,8 +141,8 @@ form {
     padding-right: 15px;
     padding-left: 15px;
   }
+  
 }
-
 
 
 
@@ -150,7 +154,7 @@ form {
   width: 100%;
   border-radius: 15px;
   padding: 32px;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(7px);
   font-weight: 900;
 }
 
@@ -166,8 +170,8 @@ form {
 }
 
 .glass-panel {
-  max-width: 560px;
-  max-height: 100%;
+  max-width: 570px;
+  max-height: auto;
 }
 
 .glass-button {
